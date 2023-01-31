@@ -2,7 +2,7 @@ import unittest
 from main import ASCII_generator, JPG_to_ASCII_colored, JPG_to_ASCII_gray
 
 class Test_ASCII_main(unittest.TestCase):
-    '''Тесты для main.py'''
+    '''Тесты для main.py, JPG_to_ASCII_Color.py, JPG_to_ASCII_Gray.py'''
 
     def test_strange_number(self):
         '''Ввод при выборе некорректной опции конвертирования'''
